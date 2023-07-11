@@ -1,0 +1,41 @@
+.home-container{
+    justify-content : center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+.home-main-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    width: 80%;
+    margin: 0;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.banner {
+    width: 100%;
+    justify-content: center;
+    height: 40%;
+    margin-top: 20px;
+    margin: auto;
+}
+.banner img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.home-content-container{
+    width: 100%;
+    justify-content: center;
+    margin-top: -240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    z-index:10;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
