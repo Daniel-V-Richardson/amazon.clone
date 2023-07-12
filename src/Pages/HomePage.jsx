@@ -9,6 +9,7 @@ import Banner5 from "../assets/img/banner5.jpg";
 import "./HomePage.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import ProductCard from "../components/ProductCard";
+import ProductCardHorizontal from "../components/ProductCardHorizontal";
 
 const banner_images = [
   { url: Banner },
@@ -40,13 +41,17 @@ const HomePage = () => {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+          <ProductCardHorizontal />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCardHorizontal />
           <ProductCard />
           <ProductCard />
           <ProductCard />
           <ProductCard />
           <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <ProductCardHorizontal />
         </div>
       </div>
     </div>

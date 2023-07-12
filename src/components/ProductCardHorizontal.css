@@ -1,0 +1,33 @@
+.product-card-horizontal-container {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.heading {
+    display: flex;
+    margin: 0;
+}
+.horizontal-products::-webkit-scrollbar {
+    display: none;
+  }
+.horizontal-products {
+ display: flex;
+ overflow: scroll;
+ -ms-overflow-style: none;
+ gap: 20px; 
+ cursor: pointer;
+ scrollbar-width: none;
+}
+.see-all-details {
+    text-decoration: none;
+    color: #539FAD;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.horizontal-item{
+    width: 100%;
+}
